@@ -386,6 +386,7 @@ header .headerName h2 {
   header .headerName span,
   header .headerName h2 {
     font-size: 5rem;
+    letter-spacing: 20px;
   }
 }
 
@@ -620,6 +621,8 @@ header .headerName h2 {
 @media (max-width: 900px) {
   .contact .contactMe div {
     width: 100%;
+    padding: 50px 0;
+    margin-bottom: 50px;
   }
 }
 

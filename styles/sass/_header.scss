@@ -69,6 +69,7 @@ header {
             }
             @include forPhone {
                 font-size: 5rem;
+                letter-spacing: 20px;
             }
         }
         span {
