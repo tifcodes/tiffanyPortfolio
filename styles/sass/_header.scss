@@ -55,22 +55,54 @@ header {
         h2 {
             font-size: 20rem;
             font-weight: 800;
-            letter-spacing: 20px;
+            letter-spacing: 25px;
             text-transform: uppercase;
             color: rgba(255,255,255,.3);
             position: absolute;
             width: 100vw;
             text-align: center;
+            @include forSmallDesktop {
+                font-size: 15rem;
+            }
+            @include forTablet {
+                font-size: 9rem;
+            }
+            @include forPhone {
+                font-size: 5rem;
+            }
         }
         span {
             font-size: 10rem;
             color: white;
+            font-weight: 700;
+            @include forSmallDesktop{
+                font-size: 7.5rem;
+            }
+            @include forTablet{
+                font-size: 4rem;
+            }
+            @include forPhone{
+                font-size: 2.7rem;
+                letter-spacing: 10px;
+            }
         }
         h2 {
             font-size: 5rem;
             color: white;
             letter-spacing: 5px;
             bottom: 300px;
+            @include forSmallDesktop {
+                bottom: 350px;
+            }
+            @include forTablet {
+                font-size: 3.5rem;
+                bottom: 420px;
+            }
+            @include forPhone{
+                font-size: 2.5rem;
+                letter-spacing: 2px;
+                bottom: 470px
+            }
         }
     }
 }

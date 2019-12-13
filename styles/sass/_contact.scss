@@ -10,6 +10,9 @@
     .contactMe {
         display: flex;
         color: #F1F1F1;
+        @include forTablet {
+            flex-direction: column;
+        }
         div {
             background-color: rgba(121,120,136, .7);
             width: 40%;
@@ -43,6 +46,7 @@
         form {
             width: 60%;
             display: flex;
+            flex-wrap: wrap ;
             flex-direction: column;
             min-height: 40vh;
             background-color: rgba(121, 120, 136, 0.705);

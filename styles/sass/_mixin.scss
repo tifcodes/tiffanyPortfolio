@@ -6,7 +6,7 @@ $buttonBackgroundColor: #a1b1bc;
 $buttonHoverColor: #65d9fd;
 
 @mixin forPhone {
-    @media (max-width: 599px) { @content; }
+    @media (max-width: 605px) { @content; }
 }
 
 @mixin forTablet {

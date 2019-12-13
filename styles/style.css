@@ -357,7 +357,7 @@ header .headerName span,
 header .headerName h2 {
   font-size: 20rem;
   font-weight: 800;
-  letter-spacing: 20px;
+  letter-spacing: 25px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.3);
   position: absolute;
@@ -365,9 +365,53 @@ header .headerName h2 {
   text-align: center;
 }
 
+@media (max-width: 1200px) {
+  header .headerName h1,
+  header .headerName span,
+  header .headerName h2 {
+    font-size: 15rem;
+  }
+}
+
+@media (max-width: 900px) {
+  header .headerName h1,
+  header .headerName span,
+  header .headerName h2 {
+    font-size: 9rem;
+  }
+}
+
+@media (max-width: 605px) {
+  header .headerName h1,
+  header .headerName span,
+  header .headerName h2 {
+    font-size: 5rem;
+  }
+}
+
 header .headerName span {
   font-size: 10rem;
   color: white;
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  header .headerName span {
+    font-size: 7.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  header .headerName span {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 605px) {
+  header .headerName span {
+    font-size: 2.7rem;
+    letter-spacing: 10px;
+  }
 }
 
 header .headerName h2 {
@@ -375,6 +419,27 @@ header .headerName h2 {
   color: white;
   letter-spacing: 5px;
   bottom: 300px;
+}
+
+@media (max-width: 1200px) {
+  header .headerName h2 {
+    bottom: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  header .headerName h2 {
+    font-size: 3.5rem;
+    bottom: 420px;
+  }
+}
+
+@media (max-width: 605px) {
+  header .headerName h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    bottom: 470px;
+  }
 }
 
 .about .aboutMe {
@@ -413,7 +478,7 @@ header .headerName h2 {
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 605px) {
   .skills div div {
     -ms-grid-columns: (50%)[2];
         grid-template-columns: repeat(2, 50%);
@@ -431,7 +496,7 @@ header .headerName h2 {
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 605px) {
   .skills div div li:nth-of-type(9) {
     -ms-grid-column: 1;
         grid-column-start: 1;
@@ -511,6 +576,15 @@ header .headerName h2 {
   color: #F1F1F1;
 }
 
+@media (max-width: 900px) {
+  .contact .contactMe {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .contact .contactMe div {
   background-color: rgba(121, 120, 136, 0.7);
   width: 40%;
@@ -554,6 +628,8 @@ header .headerName h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
