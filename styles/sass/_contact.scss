@@ -42,13 +42,14 @@
                 width: 100%;
                 padding: 50px 0;
                 margin-bottom: 50px;
+                text-align: center;
             }
         }
     
         form {
             width: 60%;
             display: flex;
-            flex-wrap: wrap ;
+            flex-wrap: wrap;
             flex-direction: column;
             min-height: 40vh;
             background-color: rgba(121, 120, 136, 0.705);

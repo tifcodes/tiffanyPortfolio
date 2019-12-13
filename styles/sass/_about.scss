@@ -1,13 +1,25 @@
 .about {
     .aboutMe {
         display: flex;
+        @include forTablet {
+            flex-direction: column;
+        }
         img {
             width: 20%;
             margin-right: 50px;
+            @include forTablet {
+                width: 50%;
+                margin: 0 auto;
+            }
         }
         div {
             width: 80%;
+            @include forTablet {
+                width: 100%;
+                text-align: center;
+            }
         }
+
     }
     
 }

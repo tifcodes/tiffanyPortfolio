@@ -4,10 +4,17 @@
 
 .portfolioPieces {
     display: flex;
+    flex-wrap: wrap;
+    @include forTablet {
+        flex-direction: column;
+    }
     margin: 20px 0;
     div {
         width: 50%;
         margin: 50px 0;
+        @include forTablet {
+            width: 100%;
+        }
         p {
             color: $pFontColor;
         }
@@ -33,5 +40,8 @@
     }
     img {
         width: 50%;
+        @include forTablet {
+            width: 100%;
+        }
     }
 }

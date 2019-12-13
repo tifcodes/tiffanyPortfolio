@@ -14,19 +14,23 @@ header {
         padding:5px 15px 0px 15px;
         color: $buttonHoverColor;
         border:0;
-        z-index: 20;
+        z-index: 100;
     }
     nav {
         position: fixed;
         top: 0;
         left: 0;
         width: 100vw;
-        height: 10vh;
+        min-height: 10vh;
         background-color: black;
+        z-index: 50;
         ul {
         display: flex;
         justify-content: center;
         align-items: center;
+        @include forTablet{
+            flex-direction: column;
+        }
         li {
             margin: 20px;
             text-transform: uppercase;
