@@ -1,0 +1,41 @@
+.skills {
+    // background-color: lighten(#797888, 50%);
+    background-color: rgba(121,120,136, .8);
+    // background-image: url(../assets/p2.png);
+    min-height: 50vh;
+    div {
+        div {
+            display: grid;
+            grid-template-columns: repeat(5, 20%);
+
+            @include forTablet {
+                grid-template-columns: repeat(4, 25%);
+                text-align: center;
+            }
+
+            @include forPhone {
+                grid-template-columns: repeat(2, 50%);
+            }
+
+            margin: 20px 0;
+            li {
+                text-align: center;
+                @include forTablet {
+                    &:nth-of-type(9) {
+                        grid-column-start: 2;
+                    }
+                }
+                @include forPhone {
+                    &:nth-of-type(9) {
+                        grid-column-start: 1;
+                    }
+                }
+            }
+            img {
+                width: 15rem;
+                height: 5rem;
+                margin: 20px auto;
+            }
+        }
+    }
+}

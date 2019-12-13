@@ -1,0 +1,91 @@
+/* stripping style */
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+ul, 
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul, 
+li {
+    list-style: none;
+}
+
+/* root size */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: $fontColor;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    @include forSmallDesktop {
+        width: 90%;
+    }
+    @include forTablet {
+        width: 100%;
+    }
+}
+
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    color: black;
+    }
+
+.skip-link:focus {
+    left: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+section {
+    padding: 50px;
+}
+
+i {
+    display: block;
+    font-size: 5rem;
+    margin: 20px;
+}

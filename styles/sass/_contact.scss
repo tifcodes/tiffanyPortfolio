@@ -1,0 +1,77 @@
+.contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    h2 {
+        color: #f1f1f1
+    }
+    .contactMe {
+        display: flex;
+        color: #F1F1F1;
+        div {
+            background-color: rgba(121,120,136, .7);
+            width: 40%;
+            margin-right: 50px;
+            padding: 100px 0;
+            .contact-text {
+                font-style: normal;
+                i.fa-envelope:hover,
+                i.fa-phone-alt:hover {
+                    color: black;
+                }
+            }
+            i {
+                font-size: 2.5rem;
+                &.fa-github:hover,
+                &.fa-file:hover {
+                    color: black;
+                }
+                &.fa-twitter:hover {
+                    color: #4C9FEB;
+                }
+                &.fa-linkedin:hover {
+                    color: #3071AC;
+                }
+            }
+            @include forTablet {
+                width: 100%;
+            }
+        }
+    
+        form {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            min-height: 40vh;
+            background-color: rgba(121, 120, 136, 0.705);
+            font-size: 2rem;
+            input,
+            textarea {
+                border: 1px solid rgba(0,0,0,0.7);
+                background: rgba(0,0,0,0.4);
+                color: #a1b1bc;
+                margin: 10px;
+                padding: 10px;
+            }
+            textarea{
+                resize: none;
+            }
+            input[type="submit"]{
+                background-color: $buttonHoverColor;
+                color: $buttonFontColor;
+                border: none;
+                text-transform: uppercase;
+                font-weight: 800;
+                width: 30%;
+                &:hover{
+                    opacity: .8,
+                }
+            }
+            @include forTablet {
+                width: 100%;
+            }
+        }
+    }
+}
