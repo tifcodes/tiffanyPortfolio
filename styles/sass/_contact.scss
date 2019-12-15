@@ -14,7 +14,7 @@
             flex-direction: column;
         }
 
-        div {
+        .fullContact {
             img {
                 margin: 20px auto;
             }
@@ -22,8 +22,16 @@
             width: 40%;
             margin-right: 50px;
             // padding: 100px 0;
+            @include forTablet {
+                width: 100%;
+                margin-bottom: 50px;
+            }
             .contact-text {
                 font-style: normal;
+                text-align: center;
+                i {
+                    font-size: 2.2rem;
+                }
                 a {
                     font-size: 2.2rem;
                 }
@@ -32,24 +40,28 @@
                     color: black;
                 }
             }
-            i {
-                font-size: 2.2rem;
-                &.fa-github:hover,
-                &.fa-file:hover {
-                    color: black;
-                }
-                &.fa-twitter:hover {
-                    color: #4C9FEB;
-                }
-                &.fa-linkedin:hover {
-                    color: #3071AC;
-                }
-            }
-            @include forTablet {
-                width: 100%;
-                padding: 50px 0;
-                margin-bottom: 50px;
+            .socialIcons {
                 text-align: center;
+                i {
+                    font-size: 2.5rem;
+                    &.fa-github:hover,
+                    &.fa-file:hover {
+                        color: black;
+                    }
+                    &.fa-twitter:hover {
+                        color: #4C9FEB;
+                    }
+                    &.fa-linkedin:hover {
+                        color: #3071AC;
+                    }
+                }
+                @include forTablet {
+                    width: 100%;
+                    padding: 20px 0;
+                    margin-bottom: 50px;
+                    text-align: center;
+                }
+
             }
         }
     

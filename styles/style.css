@@ -216,7 +216,7 @@ body {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
@@ -276,7 +276,8 @@ i {
   margin: 20px;
 }
 
-header {
+header,
+.thankYou {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
   min-height: 100vh;
@@ -287,7 +288,9 @@ header {
 }
 
 header .hamburger,
-header .cross {
+header .cross,
+.thankYou .hamburger,
+.thankYou .cross {
   background: none;
   position: fixed;
   top: 0;
@@ -298,7 +301,8 @@ header .cross {
   z-index: 100;
 }
 
-header nav {
+header nav,
+.thankYou nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -308,7 +312,8 @@ header nav {
   z-index: 50;
 }
 
-header nav ul {
+header nav ul,
+.thankYou nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,7 +326,8 @@ header nav ul {
 }
 
 @media (max-width: 900px) {
-  header nav ul {
+  header nav ul,
+  .thankYou nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -329,7 +335,8 @@ header nav ul {
   }
 }
 
-header nav ul li {
+header nav ul li,
+.thankYou nav ul li {
   margin: 20px;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -337,15 +344,18 @@ header nav ul li {
   padding: 15px 0;
 }
 
-header nav ul a {
+header nav ul a,
+.thankYou nav ul a {
   color: white;
 }
 
-header nav ul a:hover {
+header nav ul a:hover,
+.thankYou nav ul a:hover {
   color: #65d9fd;
 }
 
-header div div {
+header div div,
+.thankYou div div {
   min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -362,13 +372,17 @@ header div div {
           align-items: center;
 }
 
-header .headerName {
+header .headerName,
+.thankYou .headerName {
   position: relative;
 }
 
 header .headerName h1,
 header .headerName span,
-header .headerName h2 {
+header .headerName h2,
+.thankYou .headerName h1,
+.thankYou .headerName span,
+.thankYou .headerName h2 {
   font-size: 20rem;
   font-weight: 800;
   letter-spacing: 25px;
@@ -382,7 +396,10 @@ header .headerName h2 {
 @media (max-width: 1200px) {
   header .headerName h1,
   header .headerName span,
-  header .headerName h2 {
+  header .headerName h2,
+  .thankYou .headerName h1,
+  .thankYou .headerName span,
+  .thankYou .headerName h2 {
     font-size: 15rem;
   }
 }
@@ -390,7 +407,10 @@ header .headerName h2 {
 @media (max-width: 900px) {
   header .headerName h1,
   header .headerName span,
-  header .headerName h2 {
+  header .headerName h2,
+  .thankYou .headerName h1,
+  .thankYou .headerName span,
+  .thankYou .headerName h2 {
     font-size: 9rem;
   }
 }
@@ -398,7 +418,10 @@ header .headerName h2 {
 @media (max-width: 605px) {
   header .headerName h1,
   header .headerName span,
-  header .headerName h2 {
+  header .headerName h2,
+  .thankYou .headerName h1,
+  .thankYou .headerName span,
+  .thankYou .headerName h2 {
     font-size: 5rem;
     letter-spacing: 20px;
   }
@@ -407,12 +430,16 @@ header .headerName h2 {
 @media (max-width: 400px) {
   header .headerName h1,
   header .headerName span,
-  header .headerName h2 {
+  header .headerName h2,
+  .thankYou .headerName h1,
+  .thankYou .headerName span,
+  .thankYou .headerName h2 {
     font-size: 4.5rem;
   }
 }
 
-header .headerName span {
+header .headerName span,
+.thankYou .headerName span {
   position: relative;
   font-size: 10rem;
   color: white;
@@ -420,31 +447,36 @@ header .headerName span {
 }
 
 @media (max-width: 1200px) {
-  header .headerName span {
+  header .headerName span,
+  .thankYou .headerName span {
     font-size: 7.5rem;
   }
 }
 
 @media (max-width: 900px) {
-  header .headerName span {
+  header .headerName span,
+  .thankYou .headerName span {
     font-size: 4rem;
   }
 }
 
 @media (max-width: 605px) {
-  header .headerName span {
+  header .headerName span,
+  .thankYou .headerName span {
     font-size: 2.7rem;
     letter-spacing: 10px;
   }
 }
 
 @media (max-width: 400px) {
-  header .headerName span {
+  header .headerName span,
+  .thankYou .headerName span {
     letter-spacing: 8px;
   }
 }
 
-header .headerName h2 {
+header .headerName h2,
+.thankYou .headerName h2 {
   font-size: 5rem;
   color: white;
   letter-spacing: 5px;
@@ -453,20 +485,23 @@ header .headerName h2 {
 }
 
 @media (max-width: 1200px) {
-  header .headerName h2 {
+  header .headerName h2,
+  .thankYou .headerName h2 {
     top: 530px;
   }
 }
 
 @media (max-width: 900px) {
-  header .headerName h2 {
+  header .headerName h2,
+  .thankYou .headerName h2 {
     font-size: 3.5rem;
     top: 470px;
   }
 }
 
 @media (max-width: 605px) {
-  header .headerName h2 {
+  header .headerName h2,
+  .thankYou .headerName h2 {
     font-size: 2.5rem;
     letter-spacing: 2px;
     top: 430px;
@@ -655,6 +690,14 @@ header .headerName h2 {
   }
 }
 
+.portfolioPiecesReverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+}
+
 .contact {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
@@ -684,49 +727,65 @@ header .headerName h2 {
   }
 }
 
-.contact .contactMe div {
+.contact .contactMe .fullContact {
   background-color: rgba(121, 120, 136, 0.7);
   width: 40%;
   margin-right: 50px;
 }
 
-.contact .contactMe div img {
+.contact .contactMe .fullContact img {
   margin: 20px auto;
 }
 
-.contact .contactMe div .contact-text {
+@media (max-width: 900px) {
+  .contact .contactMe .fullContact {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+.contact .contactMe .fullContact .contact-text {
   font-style: normal;
+  text-align: center;
 }
 
-.contact .contactMe div .contact-text a {
+.contact .contactMe .fullContact .contact-text i {
   font-size: 2.2rem;
 }
 
-.contact .contactMe div .contact-text i.fa-envelope:hover,
-.contact .contactMe div .contact-text i.fa-phone-alt:hover {
-  color: black;
-}
-
-.contact .contactMe div i {
+.contact .contactMe .fullContact .contact-text a {
   font-size: 2.2rem;
 }
 
-.contact .contactMe div i.fa-github:hover, .contact .contactMe div i.fa-file:hover {
+.contact .contactMe .fullContact .contact-text i.fa-envelope:hover,
+.contact .contactMe .fullContact .contact-text i.fa-phone-alt:hover {
   color: black;
 }
 
-.contact .contactMe div i.fa-twitter:hover {
+.contact .contactMe .fullContact .socialIcons {
+  text-align: center;
+}
+
+.contact .contactMe .fullContact .socialIcons i {
+  font-size: 2.5rem;
+}
+
+.contact .contactMe .fullContact .socialIcons i.fa-github:hover, .contact .contactMe .fullContact .socialIcons i.fa-file:hover {
+  color: black;
+}
+
+.contact .contactMe .fullContact .socialIcons i.fa-twitter:hover {
   color: #4C9FEB;
 }
 
-.contact .contactMe div i.fa-linkedin:hover {
+.contact .contactMe .fullContact .socialIcons i.fa-linkedin:hover {
   color: #3071AC;
 }
 
 @media (max-width: 900px) {
-  .contact .contactMe div {
+  .contact .contactMe .fullContact .socialIcons {
     width: 100%;
-    padding: 50px 0;
+    padding: 20px 0;
     margin-bottom: 50px;
     text-align: center;
   }
