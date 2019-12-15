@@ -5,6 +5,11 @@ $buttonFontColor: #ffffff;
 $buttonBackgroundColor: #a1b1bc;
 $buttonHoverColor: #65d9fd;
 
+
+@mixin forSmallerPhone {
+    @media (max-width: 400px) { @content; }
+}
+
 @mixin forPhone {
     @media (max-width: 605px) { @content; }
 }

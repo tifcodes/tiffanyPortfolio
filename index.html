@@ -17,13 +17,9 @@
 <body>
     <header id = "home">
         <div class="wrapper">
-            <!-- <label for="toggle"><i class="fa fa-bars"></i> </label>
-            <input type="checkbox" id="toggle" name="toggle"> -->
             <button class="hamburger"><i class="fa fa-bars"></i></button>
             <button class="cross"><i class="fas fa-times"></i></button>
             <nav class = "menu">
-                <!-- <label for="toggle"><i class="fa fa-bars"></i> </label>
-                <input type="checkbox" id="toggle" name="toggle"> -->
                 <ul>
                     <li> <a href="#home"> Home </a> </li>
                     <li> <a href="#about"> About </a></li>
@@ -34,7 +30,7 @@
             </nav>
             <div class = "headerName">
                 <h1 class = "animated zoomIn delay-.5s"> Tiffany Wong </h1>
-                <span class = "animated fadeIn delay-1s"> Tiffany Wong </span>
+                <span class = "animated fadeIn delay-1s"> Tiffany Wong</span>
                 <h2 class="animated rollIn delay-2s"> Web Developer</h2>
             </div>
         </div>
@@ -47,13 +43,15 @@
                     <h2> About Me </h2>
                     <p> I am a new upcoming front end web developer. I might not have lots of experience in the field but I am willing to learn and be an asset to the team. Having a background in finance, I want to be able to create applications that will enrich people’s lives. As a team member, I want to be able to work within a team to help collaborate and give ideas to help the project succeed. I don’t give up with any challenges that come my way instead tackle them head on. </p>
                     <p> I enjoy meeting new people and learning new things. In my spare time, I love to travel and learning new cultures. </p>
+                    <button> <a href="" target="_blank"
+                        aria-label="Download Tiffany's Resume" download> </a>resume </button>
                 </div>
             </div>
         </section>
         <section class="skills" id="skills">
             <div class="wrapper">
                 <h2> Skills </h2>
-                <div>
+                <ul>
                     <li><i class="fab fa-css3-alt"></i>
                         <p> CSS3 </p>
                     </li>
@@ -81,13 +79,14 @@
                     <li><i class="fas fa-universal-access"></i> <p> Web Accessibility</p></li>
                     <li><img src="./assets/responsive-design-symbol.svg"
                             alt="responsive design with computer and tablet"> <p> Responsive Design</p></li>
-                </div>
+                </ul>
             </div>
         </section>
         <section id="portfolio" class = "portfolio">
             <div class = "wrapper">
                 <h2> Portfolio</h2>
                 <div class = "portfolioPieces"> 
+                    <img src="./assets/not-so-social-laptop.png" alt="not so social screenshot app on a laptop">
                     <div>
                         <h3> Not So Social </h3>
                         <p> Dinner dates, bachelor parties, prom nights, and game nights. These social events are fantastic, but think about the mess, expensive outings, and rowdy crowd. Hard pass. Why not fill the time with some great TV shows during these social events in the comfort of your own home with or without a crowd. Worked with Hira Ahsan, Lewis Brignell and Nick Wang</p>
@@ -95,9 +94,9 @@
                         <button> <a href="https://not-so-social.github.io/notSoSocial/"> Live </a> </button>
                         <button> <a href="https://github.com/Not-So-Social/notSoSocial"> Github </a> </button>
                     </div>
-                    <img src="./assets/not-so-social-laptop.png" alt="not so social screenshot app on a laptop">
                 </div> 
                 <div class = "portfolioPieces"> 
+                    <img src="./assets/qrCodeFolio.png" alt="qr codefolio screenshot app on a laptop and phone">
                     <div>
                         <h3> QR Codefolio </h3>
                         <p> QR Code Generator for your website, twitter and vCard. Worked with Andrew Alexander</p>
@@ -105,17 +104,16 @@
                         <button> <a href="https://tiffanyandrewprojectfour.github.io/tiffanyAndrewProjectFour/"> Live </a> </button>
                         <button> <a href="https://github.com/tiffanyAndrewProjectFour/tiffanyAndrewProjectFour"> Github </a> </button>
                     </div>
-                    <img src="./assets/qrCodeFolio.png" alt="qr codefolio screenshot app on a laptop and phone">
                 </div> 
                 <div class = "portfolioPieces"> 
+                        <img src="./assets/RestaurantMallScreenShot.png" alt="restuarant mall screenshot app on a desktop">
                         <div>
                             <h3> The Restaurant Mall </h3>
                             <p> PSD conversion using FlexBox, SaSS and Responsive Design</p>
                             <p> FlexBox | Responsive Design | Sass | HTML5</p>
-                            <button> <a href="https://tiffanyandrewprojectfour.github.io/tiffanyAndrewProjectFour/"> Live </a> </button>
-                            <button> <a href="https://github.com/tiffanyAndrewProjectFour/tiffanyAndrewProjectFour"> Github </a> </button>
+                            <button> <a href="https://tifcodes.github.io/tiffany-wong-project-2/"> Live </a> </button>
+                            <button> <a href="https://github.com/tifcodes/tiffany-wong-project-2"> Github </a> </button>
                         </div>
-                        <img src="./assets/qrCodeFolio.png" alt="qr codefolio screenshot app on a laptop and phone">
                     </div> 
                 </div>
             </div>
@@ -135,9 +133,6 @@
                         aria-label="Go to Tiffany's Twitter"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/in/tifwong/" target="_blank"
                         aria-label="Go to Tiffany's LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="" target="_blank"
-                        aria-label="Download Tiffany's Resume" download>
-                        <i class="far fa-file"></i></a>
                     </div>
                     <form action="http://www.focuspocus.io/magic/2bc9355dae5c1eb54645c9cf85c5d92f" method="POST" enctype="multipart/form-data">
                     <!-- <form action="submit"> -->
@@ -159,7 +154,7 @@
     </main>
     <footer> 
         <div class = "wrapper"> <p> Copyright ⓒ Tiffany Wong 2019 </p></div>
-    </footer>
+    </footer> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>

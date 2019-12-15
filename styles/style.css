@@ -346,7 +346,7 @@ header nav ul a:hover {
 }
 
 header div div {
-  height: 80vh;
+  min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -360,6 +360,10 @@ header div div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+header .headerName {
+  position: relative;
 }
 
 header .headerName h1,
@@ -400,7 +404,16 @@ header .headerName h2 {
   }
 }
 
+@media (max-width: 400px) {
+  header .headerName h1,
+  header .headerName span,
+  header .headerName h2 {
+    font-size: 4.5rem;
+  }
+}
+
 header .headerName span {
+  position: relative;
   font-size: 10rem;
   color: white;
   font-weight: 700;
@@ -425,23 +438,30 @@ header .headerName span {
   }
 }
 
+@media (max-width: 400px) {
+  header .headerName span {
+    letter-spacing: 8px;
+  }
+}
+
 header .headerName h2 {
   font-size: 5rem;
   color: white;
   letter-spacing: 5px;
-  bottom: 300px;
+  top: 585px;
+  margin: 0;
 }
 
 @media (max-width: 1200px) {
   header .headerName h2 {
-    bottom: 350px;
+    top: 530px;
   }
 }
 
 @media (max-width: 900px) {
   header .headerName h2 {
     font-size: 3.5rem;
-    bottom: 420px;
+    top: 470px;
   }
 }
 
@@ -449,7 +469,7 @@ header .headerName h2 {
   header .headerName h2 {
     font-size: 2.5rem;
     letter-spacing: 2px;
-    bottom: 470px;
+    top: 430px;
   }
 }
 
@@ -491,12 +511,26 @@ header .headerName h2 {
   }
 }
 
+.about .aboutMe div button {
+  background-color: #65d9fd;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  width: 10%;
+  padding: 10px 0;
+}
+
+.about .aboutMe div button:hover {
+  opacity: 0.8;
+}
+
 .skills {
   background-color: rgba(121, 120, 136, 0.8);
   min-height: 50vh;
 }
 
-.skills div div {
+.skills div ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (20%)[5];
@@ -505,7 +539,7 @@ header .headerName h2 {
 }
 
 @media (max-width: 900px) {
-  .skills div div {
+  .skills div ul {
     -ms-grid-columns: (25%)[4];
         grid-template-columns: repeat(4, 25%);
     text-align: center;
@@ -513,31 +547,31 @@ header .headerName h2 {
 }
 
 @media (max-width: 605px) {
-  .skills div div {
+  .skills div ul {
     -ms-grid-columns: (50%)[2];
         grid-template-columns: repeat(2, 50%);
   }
 }
 
-.skills div div li {
+.skills div ul li {
   text-align: center;
 }
 
 @media (max-width: 900px) {
-  .skills div div li:nth-of-type(9) {
+  .skills div ul li:nth-of-type(9) {
     -ms-grid-column: 2;
         grid-column-start: 2;
   }
 }
 
 @media (max-width: 605px) {
-  .skills div div li:nth-of-type(9) {
+  .skills div ul li:nth-of-type(9) {
     -ms-grid-column: 1;
         grid-column-start: 1;
   }
 }
 
-.skills div div img {
+.skills div ul img {
   width: 15rem;
   height: 5rem;
   margin: 20px auto;

@@ -18,6 +18,18 @@
                 width: 100%;
                 text-align: center;
             }
+            button {
+                background-color: $buttonHoverColor;
+                color: $buttonFontColor;
+                border: none;
+                text-transform: uppercase;
+                font-weight: 800;
+                width: 10%;
+                padding: 10px 0;
+                &:hover{
+                    opacity: .8,
+                }
+            }
         }
 
     }

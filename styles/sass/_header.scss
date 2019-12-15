@@ -47,13 +47,14 @@ header {
         }
     }
     div div {
-        height: 80vh;
+        min-height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     } 
     .headerName {
+        position: relative;
         h1,
         span,
         h2 {
@@ -75,8 +76,12 @@ header {
                 font-size: 5rem;
                 letter-spacing: 20px;
             }
+            @include forSmallerPhone {
+                font-size: 4.5rem;
+            }
         }
         span {
+            position: relative;
             font-size: 10rem;
             color: white;
             font-weight: 700;
@@ -90,23 +95,27 @@ header {
                 font-size: 2.7rem;
                 letter-spacing: 10px;
             }
+            @include forSmallerPhone {
+                letter-spacing: 8px;
+            }
         }
         h2 {
             font-size: 5rem;
             color: white;
             letter-spacing: 5px;
-            bottom: 300px;
+            top: 585px;
+            margin: 0;
             @include forSmallDesktop {
-                bottom: 350px;
+                top: 530px;
             }
             @include forTablet {
                 font-size: 3.5rem;
-                bottom: 420px;
+                top: 470px;
             }
             @include forPhone{
                 font-size: 2.5rem;
                 letter-spacing: 2px;
-                bottom: 470px
+                top: 430px;
             }
         }
     }
