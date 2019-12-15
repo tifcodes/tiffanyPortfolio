@@ -517,12 +517,19 @@ header .headerName h2 {
   border: none;
   text-transform: uppercase;
   font-weight: 800;
-  width: 10%;
-  padding: 10px 0;
+  width: 20%;
+  padding: 10px;
+  font-size: 2rem;
 }
 
 .about .aboutMe div button:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .about .aboutMe div button {
+    width: 30%;
+  }
 }
 
 .skills {
@@ -638,7 +645,8 @@ header .headerName h2 {
 }
 
 .portfolioPieces img {
-  width: 50%;
+  width: calc(50% - 20px);
+  margin-right: 20px;
 }
 
 @media (max-width: 900px) {
@@ -680,11 +688,18 @@ header .headerName h2 {
   background-color: rgba(121, 120, 136, 0.7);
   width: 40%;
   margin-right: 50px;
-  padding: 100px 0;
+}
+
+.contact .contactMe div img {
+  margin: 20px auto;
 }
 
 .contact .contactMe div .contact-text {
   font-style: normal;
+}
+
+.contact .contactMe div .contact-text a {
+  font-size: 2.2rem;
 }
 
 .contact .contactMe div .contact-text i.fa-envelope:hover,
@@ -693,7 +708,7 @@ header .headerName h2 {
 }
 
 .contact .contactMe div i {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .contact .contactMe div i.fa-github:hover, .contact .contactMe div i.fa-file:hover {

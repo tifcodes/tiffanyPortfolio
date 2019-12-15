@@ -24,10 +24,14 @@
                 border: none;
                 text-transform: uppercase;
                 font-weight: 800;
-                width: 10%;
-                padding: 10px 0;
+                width: 20%;
+                padding: 10px;
+                font-size: 2rem;
                 &:hover{
                     opacity: .8,
+                }
+                @include forTablet {
+                    width: 30%;
                 }
             }
         }

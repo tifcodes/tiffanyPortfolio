@@ -13,20 +13,27 @@
         @include forTablet {
             flex-direction: column;
         }
+
         div {
+            img {
+                margin: 20px auto;
+            }
             background-color: rgba(121,120,136, .7);
             width: 40%;
             margin-right: 50px;
-            padding: 100px 0;
+            // padding: 100px 0;
             .contact-text {
                 font-style: normal;
+                a {
+                    font-size: 2.2rem;
+                }
                 i.fa-envelope:hover,
                 i.fa-phone-alt:hover {
                     color: black;
                 }
             }
             i {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
                 &.fa-github:hover,
                 &.fa-file:hover {
                     color: black;

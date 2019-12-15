@@ -39,9 +39,10 @@
         }
     }
     img {
-        width: 50%;
+        width: calc(50% - 20px);
         @include forTablet {
             width: 100%;
         }
+        margin-right: 20px;
     }
 }
