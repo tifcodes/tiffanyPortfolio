@@ -30,7 +30,8 @@
             background-color: $buttonBackgroundColor;
             padding: 10px;
             margin-right: 10px;
-            &:hover {
+            &:hover,
+            &:focus {
                 background-color: $buttonHoverColor;
             }
             a {

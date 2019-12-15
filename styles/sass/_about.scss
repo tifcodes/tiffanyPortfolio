@@ -27,7 +27,8 @@
                 width: 20%;
                 padding: 10px;
                 font-size: 2rem;
-                &:hover{
+                &:hover,
+                &:focus{
                     opacity: .8,
                 }
                 @include forTablet {

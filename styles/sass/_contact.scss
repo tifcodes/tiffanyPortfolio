@@ -35,6 +35,10 @@
                 }
                 a {
                     font-size: 2.2rem;
+                    &:hover,
+                    &:focus {
+                        color: black;
+                    }
                 }
                 i.fa-envelope:hover,
                 i.fa-phone-alt:hover {
@@ -46,13 +50,17 @@
                 i {
                     font-size: 2.5rem;
                     &.fa-github:hover,
-                    &.fa-file:hover {
+                    &.fa-file:hover,
+                    &.fa-github:focus,
+                    &.fa-file:focus {
                         color: black;
                     }
-                    &.fa-twitter:hover {
+                    &.fa-twitter:hover,
+                    &.fa-twitter:focus  {
                         color: #4C9FEB;
                     }
-                    &.fa-linkedin:hover {
+                    &.fa-linkedin:hover,
+                    &.fa-linkedin:focus {
                         color: #3071AC;
                     }
                 }
@@ -92,7 +100,8 @@
                 text-transform: uppercase;
                 font-weight: 800;
                 width: 30%;
-                &:hover{
+                &:hover,
+                &:focus{
                     opacity: .8,
                 }
             }

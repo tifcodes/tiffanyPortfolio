@@ -13,7 +13,7 @@ header,
         top:0;
         right:0;
         padding:5px 15px 0px 15px;
-        color: $buttonHoverColor;
+        color: #65d9fd;
         border:0;
         z-index: 100;
     }
@@ -41,8 +41,9 @@ header,
             }
             a {
                 color: white;
-                &:hover{
-                    color: $buttonHoverColor;
+                &:hover,
+                &:focus{
+                    color: #65d9fd;
                 }
             }
         }

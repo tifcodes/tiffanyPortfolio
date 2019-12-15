@@ -349,8 +349,9 @@ header nav ul a,
   color: white;
 }
 
-header nav ul a:hover,
-.thankYou nav ul a:hover {
+header nav ul a:hover, header nav ul a:focus,
+.thankYou nav ul a:hover,
+.thankYou nav ul a:focus {
   color: #65d9fd;
 }
 
@@ -557,7 +558,7 @@ header .headerName h2,
   font-size: 2rem;
 }
 
-.about .aboutMe div button:hover {
+.about .aboutMe div button:hover, .about .aboutMe div button:focus {
   opacity: 0.8;
 }
 
@@ -671,7 +672,7 @@ header .headerName h2,
   margin-right: 10px;
 }
 
-.portfolioPieces div button:hover {
+.portfolioPieces div button:hover, .portfolioPieces div button:focus {
   background-color: #65d9fd;
 }
 
@@ -757,6 +758,10 @@ header .headerName h2,
   font-size: 2.2rem;
 }
 
+.contact .contactMe .fullContact .contact-text a:hover, .contact .contactMe .fullContact .contact-text a:focus {
+  color: black;
+}
+
 .contact .contactMe .fullContact .contact-text i.fa-envelope:hover,
 .contact .contactMe .fullContact .contact-text i.fa-phone-alt:hover {
   color: black;
@@ -770,15 +775,15 @@ header .headerName h2,
   font-size: 2.5rem;
 }
 
-.contact .contactMe .fullContact .socialIcons i.fa-github:hover, .contact .contactMe .fullContact .socialIcons i.fa-file:hover {
+.contact .contactMe .fullContact .socialIcons i.fa-github:hover, .contact .contactMe .fullContact .socialIcons i.fa-file:hover, .contact .contactMe .fullContact .socialIcons i.fa-github:focus, .contact .contactMe .fullContact .socialIcons i.fa-file:focus {
   color: black;
 }
 
-.contact .contactMe .fullContact .socialIcons i.fa-twitter:hover {
+.contact .contactMe .fullContact .socialIcons i.fa-twitter:hover, .contact .contactMe .fullContact .socialIcons i.fa-twitter:focus {
   color: #4C9FEB;
 }
 
-.contact .contactMe .fullContact .socialIcons i.fa-linkedin:hover {
+.contact .contactMe .fullContact .socialIcons i.fa-linkedin:hover, .contact .contactMe .fullContact .socialIcons i.fa-linkedin:focus {
   color: #3071AC;
 }
 
@@ -829,7 +834,7 @@ header .headerName h2,
   width: 30%;
 }
 
-.contact .contactMe form input[type="submit"]:hover {
+.contact .contactMe form input[type="submit"]:hover, .contact .contactMe form input[type="submit"]:focus {
   opacity: 0.8;
 }
 
