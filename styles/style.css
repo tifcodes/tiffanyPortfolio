@@ -563,7 +563,7 @@ header .headerName h2,
 
 @media (max-width: 900px) {
   .about .aboutMe div button {
-    width: 30%;
+    width: 40%;
   }
 }
 
@@ -642,8 +642,8 @@ header .headerName h2,
 }
 
 .portfolioPieces div {
-  width: 50%;
-  margin: 50px 0;
+  width: calc(50% - 40px);
+  margin: 50px 20px;
 }
 
 @media (max-width: 900px) {
@@ -681,7 +681,6 @@ header .headerName h2,
 
 .portfolioPieces img {
   width: calc(50% - 20px);
-  margin-right: 20px;
 }
 
 @media (max-width: 900px) {

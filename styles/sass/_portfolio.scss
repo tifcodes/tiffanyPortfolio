@@ -10,8 +10,8 @@
     }
     margin: 20px 0;
     div {
-        width: 50%;
-        margin: 50px 0;
+        width: calc(50% - 40px);
+        margin: 50px 20px;
         @include forTablet {
             width: 100%;
         }
@@ -43,7 +43,7 @@
         @include forTablet {
             width: 100%;
         }
-        margin-right: 20px;
+        // margin-right: 20px;
     }
 }
 
