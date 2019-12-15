@@ -205,7 +205,6 @@ li {
 /* root size */
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -217,6 +216,7 @@ body {
 img {
   max-width: 100%;
   height: 100%;
+  max-height: auto;
   display: block;
 }
 
@@ -735,6 +735,7 @@ header .headerName h2,
 
 .contact .contactMe .fullContact img {
   margin: 20px auto;
+  height: auto;
 }
 
 @media (max-width: 900px) {
