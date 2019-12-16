@@ -48,13 +48,23 @@ header {
             }
         }
     }
-    div div {
+    // .fa-angle-double-down{
+    //     color: white;
+    //     display: block;
+    //     text-align: center;
+    //     @include forTablet {
+    //         font-size: 2rem;
+    //     }
+    // }
+    div {
+        div {
         min-height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    } 
+        } 
+    }
     .headerName {
         position: relative;
         h1,

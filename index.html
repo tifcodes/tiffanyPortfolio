@@ -19,8 +19,8 @@
     <a href="#about" class="skip-link">Skip to main content.</a>
     <header id = "home">
         <div class="wrapper">
-            <i class="fa fa-bars hamburger"></i>
-            <i class="fas fa-times cross"></i>
+            <i class="fa fa-bars hamburger" aria-hidden="true"></i>
+            <i class="fas fa-times cross" aria-hidden="true"></i>
             <nav class = "menu">
                 <ul>
                     <li> <a href="#home"> Home </a> </li>
@@ -35,6 +35,12 @@
                 <span class = "animated fadeIn delay-1s"> Tiffany Wong</span>
                 <h2 class="animated rollIn delay-2s"> Web Developer</h2>
             </div>
+            <!-- <a href = "#about">
+            <i
+                aria-hidden="true"
+                class="animated infinite bounce delay-2s slower fas fa-angle-double-down"
+                title="go to the about page">
+            </i></a> -->
         </div>
     </header>
     <main>
@@ -54,40 +60,42 @@
             <div class="wrapper">
                 <h2> Skills </h2>
                 <ul>
-                    <li><i class="fab fa-css3-alt"></i>
+                    <li><i class="fab fa-css3-alt" aria-hidden="true"></i>
                         <p> CSS3 </p>
                     </li>
-                    <li><i class="fab fa-html5"></i>
+                    <li><i class="fab fa-html5" aria-hidden="true"></i>
                         <p> HTML5 </p>
                     </li>
-                    <li><i class="fab fa-js-square"></i>
+                    <li><i class="fab fa-js-square" aria-hidden="true"></i>
                         <p> JavaScript </p>
                     </li>
-                    <li><i class="devicon-jquery-plain"></i>
+                    <li><i class="devicon-jquery-plain" aria-hidden="true"></i>
                         <p> jQuery </p>
                     </li>
-                    <li><i class="fab fa-react"></i>
+                    <li><i class="fab fa-react" aria-hidden="true"></i>
                         <p> React </p>
                     </li>
-                    <li><i class="fab fa-sass"></i>
+                    <li><i class="fab fa-sass" aria-hidden="true"></i>
                         <p> Sass </p>
                     </li>
-                    <li><i class="devicon-visualstudio-plain"></i>
+                    <li><i class="devicon-visualstudio-plain" aria-hidden="true"></i>
                         <p> Visual Studio </p>
                     </li>
                     <li><img src="./assets/firebase.svg" alt="firebase logo">
                         <p> Firebase </p>
                     </li>
-                    <li><i class="fas fa-universal-access"></i> <p> Web Accessibility</p></li>
+                    <li><i class="fas fa-universal-access" aria-hidden="true"></i>
+                        <p> Web Accessibility</p></li>
                     <li><img src="./assets/responsive-design-symbol.svg"
-                            alt="responsive design with computer and tablet"> <p> Responsive Design</p></li>
+                            alt="responsive design with computer and tablet"> 
+                            <p> Responsive Design</p></li>
                 </ul>
             </div>
         </section>
         <section id="portfolio" class = "portfolio">
             <div class = "wrapper">
                 <h2> Portfolio</h2>
-                <div class = "portfolioPieces" data-aos="fade-left"> 
+                <div class = "portfolioPieces" data-aos="fade-up"> 
                     <img src="./assets/qrCodeFolio.png" alt="qr codefolio screenshot app on a laptop and phone">
                     <div>
                         <h3> QR Codefolio </h3>
@@ -97,7 +105,7 @@
                         <a href="https://github.com/tiffanyAndrewProjectFour/tiffanyAndrewProjectFour"> Github </a> 
                     </div>
                 </div> 
-                <div class = "portfolioPieces portfolioPiecesReverse" data-aos="fade-right"> 
+                <div class = "portfolioPieces portfolioPiecesReverse" data-aos="fade-up"> 
                         <img src="./assets/budgetApp.png" alt="budget screenshot app on a laptop and phone">
                         <div>
                             <h3> Budget App </h3>
@@ -107,7 +115,7 @@
                             <a href="https://github.com/tifcodes/tiffanyWongProjectFive"> Github </a>
                         </div>
                     </div> 
-                    <div class = "portfolioPieces notSoSocial" data-aos="fade-left"> 
+                    <div class = "portfolioPieces" data-aos="fade-up"> 
                         <img src="./assets/not-so-social-laptop.png" alt="not so social screenshot app on a laptop">
                         <div>
                             <h3> Not So Social </h3>
@@ -128,7 +136,7 @@
                         <a href="https://github.com/tifcodes/tiffanyWongProjectThree"> Github </a> 
                     </div>
                 </div>  -->
-                <div class = "portfolioPieces portfolioPiecesReverse"  data-aos="fade-right"> 
+                <div class = "portfolioPieces portfolioPiecesReverse"  data-aos="fade-up"> 
                         <img src="./assets/RestaurantMallScreenShot.png" alt="restuarant mall screenshot app on a desktop">
                         <div>
                             <h3> The Restaurant Mall </h3>
