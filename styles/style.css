@@ -276,8 +276,7 @@ i {
   margin: 20px;
 }
 
-header,
-.thankYou {
+header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
   min-height: 100vh;
@@ -288,9 +287,7 @@ header,
 }
 
 header .hamburger,
-header .cross,
-.thankYou .hamburger,
-.thankYou .cross {
+header .cross {
   background: none;
   position: fixed;
   top: 0;
@@ -301,8 +298,7 @@ header .cross,
   z-index: 100;
 }
 
-header nav,
-.thankYou nav {
+header nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -312,8 +308,7 @@ header nav,
   z-index: 50;
 }
 
-header nav ul,
-.thankYou nav ul {
+header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -326,8 +321,7 @@ header nav ul,
 }
 
 @media (max-width: 900px) {
-  header nav ul,
-  .thankYou nav ul {
+  header nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -335,8 +329,7 @@ header nav ul,
   }
 }
 
-header nav ul li,
-.thankYou nav ul li {
+header nav ul li {
   margin: 20px;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -344,19 +337,15 @@ header nav ul li,
   padding: 15px 0;
 }
 
-header nav ul a,
-.thankYou nav ul a {
+header nav ul a {
   color: white;
 }
 
-header nav ul a:hover, header nav ul a:focus,
-.thankYou nav ul a:hover,
-.thankYou nav ul a:focus {
+header nav ul a:hover, header nav ul a:focus {
   color: #65d9fd;
 }
 
-header div div,
-.thankYou div div {
+header div div {
   min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -373,17 +362,13 @@ header div div,
           align-items: center;
 }
 
-header .headerName,
-.thankYou .headerName {
+header .headerName {
   position: relative;
 }
 
 header .headerName h1,
 header .headerName span,
-header .headerName h2,
-.thankYou .headerName h1,
-.thankYou .headerName span,
-.thankYou .headerName h2 {
+header .headerName h2 {
   font-size: 20rem;
   font-weight: 800;
   letter-spacing: 25px;
@@ -397,10 +382,7 @@ header .headerName h2,
 @media (max-width: 1200px) {
   header .headerName h1,
   header .headerName span,
-  header .headerName h2,
-  .thankYou .headerName h1,
-  .thankYou .headerName span,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     font-size: 15rem;
   }
 }
@@ -408,10 +390,7 @@ header .headerName h2,
 @media (max-width: 900px) {
   header .headerName h1,
   header .headerName span,
-  header .headerName h2,
-  .thankYou .headerName h1,
-  .thankYou .headerName span,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     font-size: 9rem;
   }
 }
@@ -419,10 +398,7 @@ header .headerName h2,
 @media (max-width: 605px) {
   header .headerName h1,
   header .headerName span,
-  header .headerName h2,
-  .thankYou .headerName h1,
-  .thankYou .headerName span,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     font-size: 5rem;
     letter-spacing: 20px;
   }
@@ -431,16 +407,12 @@ header .headerName h2,
 @media (max-width: 400px) {
   header .headerName h1,
   header .headerName span,
-  header .headerName h2,
-  .thankYou .headerName h1,
-  .thankYou .headerName span,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     font-size: 4.5rem;
   }
 }
 
-header .headerName span,
-.thankYou .headerName span {
+header .headerName span {
   position: relative;
   font-size: 10rem;
   color: white;
@@ -448,36 +420,31 @@ header .headerName span,
 }
 
 @media (max-width: 1200px) {
-  header .headerName span,
-  .thankYou .headerName span {
+  header .headerName span {
     font-size: 7.5rem;
   }
 }
 
 @media (max-width: 900px) {
-  header .headerName span,
-  .thankYou .headerName span {
+  header .headerName span {
     font-size: 4rem;
   }
 }
 
 @media (max-width: 605px) {
-  header .headerName span,
-  .thankYou .headerName span {
+  header .headerName span {
     font-size: 2.7rem;
     letter-spacing: 10px;
   }
 }
 
 @media (max-width: 400px) {
-  header .headerName span,
-  .thankYou .headerName span {
+  header .headerName span {
     letter-spacing: 8px;
   }
 }
 
-header .headerName h2,
-.thankYou .headerName h2 {
+header .headerName h2 {
   font-size: 5rem;
   color: white;
   letter-spacing: 5px;
@@ -486,23 +453,20 @@ header .headerName h2,
 }
 
 @media (max-width: 1200px) {
-  header .headerName h2,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     top: 530px;
   }
 }
 
 @media (max-width: 900px) {
-  header .headerName h2,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     font-size: 3.5rem;
     top: 470px;
   }
 }
 
 @media (max-width: 605px) {
-  header .headerName h2,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     font-size: 2.5rem;
     letter-spacing: 2px;
     top: 430px;
@@ -510,15 +474,13 @@ header .headerName h2,
 }
 
 @media (max-height: 600px) {
-  header .headerName h2,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     top: 280px;
   }
 }
 
 @media (max-height: 400px) {
-  header .headerName h2,
-  .thankYou .headerName h2 {
+  header .headerName h2 {
     top: 200px;
   }
 }
@@ -866,4 +828,100 @@ header .headerName h2,
 
 footer {
   text-align: center;
+}
+
+header,
+.thankYou {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+header nav,
+.thankYou nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 10vh;
+  background-color: black;
+  z-index: 50;
+}
+
+header nav ul,
+.thankYou nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 900px) {
+  header nav ul,
+  .thankYou nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+header nav ul li,
+.thankYou nav ul li {
+  margin: 20px;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  display: block;
+  padding: 15px 0;
+}
+
+header nav ul a,
+.thankYou nav ul a {
+  color: white;
+}
+
+header nav ul a:hover, header nav ul a:focus,
+.thankYou nav ul a:hover,
+.thankYou nav ul a:focus {
+  color: #65d9fd;
+}
+
+header div h1,
+.thankYou div h1 {
+  font-size: 7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  header div h1,
+  .thankYou div h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  header div h1,
+  .thankYou div h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 605px) {
+  header div h1,
+  .thankYou div h1 {
+    font-size: 3.5rem;
+  }
 }

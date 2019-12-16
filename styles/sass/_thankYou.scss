@@ -1,0 +1,59 @@
+header,
+.thankYou {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;  
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        min-height: 10vh;
+        background-color: black;
+        z-index: 50;
+        ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include forTablet{
+            flex-direction: column;
+        }
+        li {
+            margin: 20px;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            display: block;
+            padding: 15px 0;
+            }
+            a {
+                color: white;
+                &:hover,
+                &:focus{
+                    color: #65d9fd;
+                }
+            }
+        }
+    }
+    div {
+        h1 {
+                font-size: 7rem;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: rgba(255,255,255,.3);
+                position: absolute;
+                text-align: center;
+                @include forSmallDesktop {
+                    font-size: 5rem;
+                }
+                @include forTablet {
+                    font-size: 4rem;
+                }
+                @include forPhone {
+                    font-size: 3.5rem;
+                }
+            }
+    }
+}
