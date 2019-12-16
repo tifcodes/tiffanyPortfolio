@@ -21,6 +21,7 @@ app.init = function() {
 
 $(function() {
     app.init();
+    AOS.init();
     $(function () {
         $('a').smoothScroll();
     });
