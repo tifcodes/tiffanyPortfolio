@@ -119,6 +119,12 @@ header,
                 letter-spacing: 2px;
                 top: 430px;
             }
+            @media (max-height: 600px) {
+                top: 280px;
+            }
+            @media (max-height: 400px) {
+                top: 200px;
+            }
         }
     }
 }

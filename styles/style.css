@@ -509,6 +509,20 @@ header .headerName h2,
   }
 }
 
+@media (max-height: 600px) {
+  header .headerName h2,
+  .thankYou .headerName h2 {
+    top: 280px;
+  }
+}
+
+@media (max-height: 400px) {
+  header .headerName h2,
+  .thankYou .headerName h2 {
+    top: 200px;
+  }
+}
+
 .about .aboutMe {
   display: -webkit-box;
   display: -ms-flexbox;
