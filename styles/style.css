@@ -296,6 +296,7 @@ header .cross {
   color: #65d9fd;
   border: 0;
   z-index: 100;
+  cursor: pointer;
 }
 
 header nav {
@@ -660,7 +661,7 @@ header .headerName h2 {
   color: black;
 }
 
-.portfolioPieces div button {
+.portfolioPieces div a {
   font-size: 2rem;
   border-radius: 5px;
   border: none;
@@ -668,14 +669,16 @@ header .headerName h2 {
   color: #ffffff;
   background-color: #a1b1bc;
   padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
   margin-right: 10px;
 }
 
-.portfolioPieces div button:hover, .portfolioPieces div button:focus {
+.portfolioPieces div a:hover, .portfolioPieces div a:focus {
   background-color: #65d9fd;
 }
 
-.portfolioPieces div button a {
+.portfolioPieces div a a {
   color: #ffffff;
 }
 
