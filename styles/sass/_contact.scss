@@ -30,6 +30,9 @@
                 font-style: normal;
                 i {
                     font-size: 2.2rem;
+                    @include forTablet {
+                        margin: 20px 15px;
+                    }
                 }
                 a {
                     font-size: 2.2rem;
@@ -46,6 +49,9 @@
                 }
                 @include forTablet {
                     text-align: center;
+                }
+                @include forPhone {
+                    text-align: left;
                 }
             }
             .socialIcons {
@@ -72,7 +78,6 @@
                     margin-bottom: 50px;
                     text-align: center;
                 }
-
             }
         }
     

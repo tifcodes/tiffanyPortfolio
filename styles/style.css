@@ -753,6 +753,12 @@ header .headerName h2,
   font-size: 2.2rem;
 }
 
+@media (max-width: 900px) {
+  .contact .contactMe .fullContact .contact-text i {
+    margin: 20px 15px;
+  }
+}
+
 .contact .contactMe .fullContact .contact-text a {
   font-size: 2.2rem;
 }
@@ -771,6 +777,12 @@ header .headerName h2,
 @media (max-width: 900px) {
   .contact .contactMe .fullContact .contact-text {
     text-align: center;
+  }
+}
+
+@media (max-width: 605px) {
+  .contact .contactMe .fullContact .contact-text {
+    text-align: left;
   }
 }
 
