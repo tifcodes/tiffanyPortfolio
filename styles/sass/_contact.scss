@@ -22,14 +22,12 @@
             background-color: rgba(121,120,136, .7);
             width: 40%;
             margin-right: 50px;
-            // padding: 100px 0;
             @include forTablet {
                 width: 100%;
                 margin-bottom: 50px;
             }
             .contact-text {
                 font-style: normal;
-                text-align: center;
                 i {
                     font-size: 2.2rem;
                 }
@@ -41,12 +39,16 @@
                     }
                 }
                 i.fa-envelope:hover,
-                i.fa-phone-alt:hover {
+                i.fa-phone-alt:hover,
+                i.fa-envelope:focus,
+                i.fa-phone-alt:focus  {
                     color: black;
+                }
+                @include forTablet {
+                    text-align: center;
                 }
             }
             .socialIcons {
-                text-align: center;
                 i {
                     font-size: 2.5rem;
                     &.fa-github:hover,
@@ -66,7 +68,7 @@
                 }
                 @include forTablet {
                     width: 100%;
-                    padding: 20px 0;
+                    padding: 10px 0;
                     margin-bottom: 50px;
                     text-align: center;
                 }

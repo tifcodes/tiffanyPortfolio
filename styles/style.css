@@ -747,7 +747,6 @@ header .headerName h2,
 
 .contact .contactMe .fullContact .contact-text {
   font-style: normal;
-  text-align: center;
 }
 
 .contact .contactMe .fullContact .contact-text i {
@@ -763,12 +762,16 @@ header .headerName h2,
 }
 
 .contact .contactMe .fullContact .contact-text i.fa-envelope:hover,
-.contact .contactMe .fullContact .contact-text i.fa-phone-alt:hover {
+.contact .contactMe .fullContact .contact-text i.fa-phone-alt:hover,
+.contact .contactMe .fullContact .contact-text i.fa-envelope:focus,
+.contact .contactMe .fullContact .contact-text i.fa-phone-alt:focus {
   color: black;
 }
 
-.contact .contactMe .fullContact .socialIcons {
-  text-align: center;
+@media (max-width: 900px) {
+  .contact .contactMe .fullContact .contact-text {
+    text-align: center;
+  }
 }
 
 .contact .contactMe .fullContact .socialIcons i {
@@ -790,7 +793,7 @@ header .headerName h2,
 @media (max-width: 900px) {
   .contact .contactMe .fullContact .socialIcons {
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     margin-bottom: 50px;
     text-align: center;
   }
