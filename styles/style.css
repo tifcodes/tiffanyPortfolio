@@ -485,10 +485,23 @@ header .headerName h2 {
   }
 }
 
+.about {
+  background: url(../assets/journal-applied-mathematics-and-statistics.png);
+  min-height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);
+          box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.8);
+}
+
 .about .aboutMe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 900px) {
@@ -590,6 +603,10 @@ header .headerName h2 {
   }
 }
 
+.skills div ul li p {
+  text-shadow: 3px 3px 5px #65d9fd;
+}
+
 .skills div ul img {
   width: 15rem;
   height: 5rem;
@@ -606,6 +623,12 @@ header .headerName h2 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 20px 0;
 }
 
@@ -703,6 +726,10 @@ header .headerName h2 {
   }
 }
 
+.contact .contactMe p {
+  margin-top: 30px;
+}
+
 .contact .contactMe .fullContact {
   text-align: center;
   background-color: rgba(121, 120, 136, 0.7);
@@ -757,7 +784,7 @@ header .headerName h2 {
   font-size: 2.5rem;
 }
 
-.contact .contactMe .fullContact .socialIcons i.fa-github:hover, .contact .contactMe .fullContact .socialIcons i.fa-file:hover, .contact .contactMe .fullContact .socialIcons i.fa-github:focus, .contact .contactMe .fullContact .socialIcons i.fa-file:focus {
+.contact .contactMe .fullContact .socialIcons i.fa-github:hover, .contact .contactMe .fullContact .socialIcons i.fa-github:focus {
   color: black;
 }
 
@@ -830,29 +857,26 @@ footer {
   text-align: center;
 }
 
-header,
 .thankYou {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
-  min-height: 100vh;
+  min-height: 95vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
 }
 
-header nav,
 .thankYou nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  min-height: 10vh;
+  min-height: 3vh;
   background-color: black;
   z-index: 50;
 }
 
-header nav ul,
 .thankYou nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -866,7 +890,6 @@ header nav ul,
 }
 
 @media (max-width: 900px) {
-  header nav ul,
   .thankYou nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -875,7 +898,6 @@ header nav ul,
   }
 }
 
-header nav ul li,
 .thankYou nav ul li {
   margin: 20px;
   text-transform: uppercase;
@@ -884,44 +906,50 @@ header nav ul li,
   padding: 15px 0;
 }
 
-header nav ul a,
 .thankYou nav ul a {
   color: white;
 }
 
-header nav ul a:hover, header nav ul a:focus,
-.thankYou nav ul a:hover,
-.thankYou nav ul a:focus {
+.thankYou nav ul a:hover, .thankYou nav ul a:focus {
   color: #65d9fd;
 }
 
-header div h1,
-.thankYou div h1 {
+.thankYou .thankYouResponse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 95vh;
+}
+
+.thankYou .thankYouResponse h1 {
   font-size: 7rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.3);
+  color: white;
   position: absolute;
   text-align: center;
 }
 
 @media (max-width: 1200px) {
-  header div h1,
-  .thankYou div h1 {
+  .thankYou .thankYouResponse h1 {
     font-size: 5rem;
   }
 }
 
 @media (max-width: 900px) {
-  header div h1,
-  .thankYou div h1 {
+  .thankYou .thankYouResponse h1 {
     font-size: 4rem;
   }
 }
 
 @media (max-width: 605px) {
-  header div h1,
-  .thankYou div h1 {
+  .thankYou .thankYouResponse h1 {
     font-size: 3.5rem;
   }
 }

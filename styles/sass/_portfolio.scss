@@ -5,6 +5,8 @@
 .portfolioPieces {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     @include forTablet {
         flex-direction: column;
     }
@@ -44,7 +46,6 @@
         @include forTablet {
             width: 100%;
         }
-        // margin-right: 20px;
     }
 }
 

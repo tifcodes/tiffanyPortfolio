@@ -13,6 +13,9 @@
         @include forTablet {
             flex-direction: column;
         }
+        p {
+            margin-top: 30px;
+        }
         .fullContact {
             text-align: center;
             img {
@@ -54,9 +57,7 @@
                 i {
                     font-size: 2.5rem;
                     &.fa-github:hover,
-                    &.fa-file:hover,
-                    &.fa-github:focus,
-                    &.fa-file:focus {
+                    &.fa-github:focus{
                         color: black;
                     }
                     &.fa-twitter:hover,

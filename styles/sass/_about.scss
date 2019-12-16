@@ -1,6 +1,13 @@
 .about {
+    background: url(../assets/journal-applied-mathematics-and-statistics.png);
+    min-height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: inset 0 0 0 1000px rgba(255,255,255,0.8);
     .aboutMe {
         display: flex;
+        align-items: center;
         @include forTablet {
             flex-direction: column;
         }
