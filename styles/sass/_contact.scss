@@ -13,8 +13,8 @@
         @include forTablet {
             flex-direction: column;
         }
-
         .fullContact {
+            text-align: center;
             img {
                 margin: 20px auto;
                 height: auto;
@@ -28,6 +28,8 @@
             }
             .contact-text {
                 font-style: normal;
+                display: inline-block;
+                text-align: left;
                 i {
                     font-size: 2.2rem;
                     @include forTablet {
@@ -46,12 +48,6 @@
                 i.fa-envelope:focus,
                 i.fa-phone-alt:focus  {
                     color: black;
-                }
-                @include forTablet {
-                    text-align: center;
-                }
-                @include forPhone {
-                    text-align: left;
                 }
             }
             .socialIcons {

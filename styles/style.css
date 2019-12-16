@@ -728,6 +728,7 @@ header .headerName h2,
 }
 
 .contact .contactMe .fullContact {
+  text-align: center;
   background-color: rgba(121, 120, 136, 0.7);
   width: 40%;
   margin-right: 50px;
@@ -747,6 +748,8 @@ header .headerName h2,
 
 .contact .contactMe .fullContact .contact-text {
   font-style: normal;
+  display: inline-block;
+  text-align: left;
 }
 
 .contact .contactMe .fullContact .contact-text i {
@@ -772,18 +775,6 @@ header .headerName h2,
 .contact .contactMe .fullContact .contact-text i.fa-envelope:focus,
 .contact .contactMe .fullContact .contact-text i.fa-phone-alt:focus {
   color: black;
-}
-
-@media (max-width: 900px) {
-  .contact .contactMe .fullContact .contact-text {
-    text-align: center;
-  }
-}
-
-@media (max-width: 605px) {
-  .contact .contactMe .fullContact .contact-text {
-    text-align: left;
-  }
 }
 
 .contact .contactMe .fullContact .socialIcons i {
