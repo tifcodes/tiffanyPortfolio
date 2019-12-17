@@ -13,7 +13,7 @@ header {
         top: 0;
         right: 0;
         padding: 5px 15px 0px 15px;
-        color: #65d9fd;
+        color: $accentColor;
         border: 0;
         z-index: 100;
         cursor: pointer;
@@ -25,7 +25,7 @@ header {
         left: 0;
         width: 100vw;
         min-height: 10vh;
-        background-color: black;
+        background-color: $secondaryColor;
         z-index: 50;
 
         ul {
@@ -47,15 +47,15 @@ header {
             }
 
             a {
-                color: white;
+                color: $fontColor;
 
                 &:hover,
                 &:focus {
-                    color: #65d9fd;
+                    color: $accentColor;
                 }
 
                 &:active {
-                    border-bottom: 3px solid #65d9fd;
+                    border-bottom: 3px solid $accentColor;
                 }
 
                 // .active {
@@ -65,14 +65,6 @@ header {
         }
     }
 
-    // .fa-angle-double-down{
-    //     color: white;
-    //     display: block;
-    //     text-align: center;
-    //     @include forTablet {
-    //         font-size: 2rem;
-    //     }
-    // }
     div {
         div {
             min-height: 80vh;
@@ -141,7 +133,7 @@ header {
         span {
             position: relative;
             font-size: 10rem;
-            color: white;
+            color: $fontColor;
             font-weight: 700;
 
             @include forSmallDesktop {
@@ -164,7 +156,7 @@ header {
 
         h2 {
             font-size: 5rem;
-            color: white;
+            color: $fontColor;
             letter-spacing: 5px;
             top: 585px;
             margin: 0;

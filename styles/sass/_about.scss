@@ -20,7 +20,7 @@
                 width: 50%;
                 margin: 0 auto;
             }
-            border: 5px solid #65d9fd;
+            border: 5px solid $accentColor;
             border-radius: 5px;
         }
         div {
@@ -31,8 +31,8 @@
                 text-align: center;
             }
             button {
-                background-color: #65d9fd;
-                color: #ffffff;
+                background-color: $accentColor;
+                color: $fontColor;
                 border: none;
                 text-transform: uppercase;
                 font-weight: 800;

@@ -194,7 +194,7 @@ p {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 ul,
@@ -243,8 +243,8 @@ img {
   left: -1000px;
   top: 5px;
   z-index: 999;
-  background: white;
-  color: black;
+  background: #ffffff;
+  color: #000000;
 }
 
 .skip-link:focus {
@@ -306,7 +306,7 @@ header nav {
   left: 0;
   width: 100vw;
   min-height: 10vh;
-  background-color: black;
+  background-color: #000000;
   z-index: 50;
 }
 
@@ -341,7 +341,7 @@ header nav ul li {
 }
 
 header nav ul a {
-  color: white;
+  color: #ffffff;
 }
 
 header nav ul a:hover, header nav ul a:focus {
@@ -422,7 +422,7 @@ header .headerName h2 {
 header .headerName span {
   position: relative;
   font-size: 10rem;
-  color: white;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -453,7 +453,7 @@ header .headerName span {
 
 header .headerName h2 {
   font-size: 5rem;
-  color: white;
+  color: #ffffff;
   letter-spacing: 5px;
   top: 585px;
   margin: 0;
@@ -673,7 +673,7 @@ header .headerName h2 {
 }
 
 .portfolioPieces div p:last-of-type {
-  color: black;
+  color: #000000;
 }
 
 .portfolioPieces div a {
@@ -790,14 +790,14 @@ header .headerName h2 {
 }
 
 .contact .contactMe .fullContact .contact-text a:hover, .contact .contactMe .fullContact .contact-text a:focus {
-  color: black;
+  color: #000000;
 }
 
 .contact .contactMe .fullContact .contact-text i.fa-envelope:hover,
 .contact .contactMe .fullContact .contact-text i.fa-phone-alt:hover,
 .contact .contactMe .fullContact .contact-text i.fa-envelope:focus,
 .contact .contactMe .fullContact .contact-text i.fa-phone-alt:focus {
-  color: black;
+  color: #000000;
 }
 
 .contact .contactMe .fullContact .socialIcons i {
@@ -805,7 +805,7 @@ header .headerName h2 {
 }
 
 .contact .contactMe .fullContact .socialIcons i.fa-github:hover, .contact .contactMe .fullContact .socialIcons i.fa-github:focus {
-  color: black;
+  color: #000000;
 }
 
 .contact .contactMe .fullContact .socialIcons i.fa-twitter:hover, .contact .contactMe .fullContact .socialIcons i.fa-twitter:focus {
@@ -901,7 +901,7 @@ footer {
   left: 0;
   width: 100vw;
   min-height: 3vh;
-  background-color: black;
+  background-color: #000000;
   z-index: 50;
 }
 
@@ -936,7 +936,7 @@ footer {
 }
 
 .thankYou nav ul a {
-  color: white;
+  color: #ffffff;
 }
 
 .thankYou nav ul a:hover, .thankYou nav ul a:focus {
@@ -960,7 +960,7 @@ footer {
   font-size: 7rem;
   font-weight: 800;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   position: absolute;
   text-align: center;
 }

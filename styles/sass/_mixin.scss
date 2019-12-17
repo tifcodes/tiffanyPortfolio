@@ -1,3 +1,7 @@
+$fontColor: #ffffff;
+$secondaryColor: #000000;
+$accentColor: #65d9fd;
+
 @mixin forSmallerPhone {
     @media (max-width: 400px) { @content; }
 }

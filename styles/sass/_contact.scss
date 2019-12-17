@@ -57,7 +57,7 @@
 
                     &:hover,
                     &:focus {
-                        color: black;
+                        color: $secondaryColor;
                     }
                 }
 
@@ -65,7 +65,7 @@
                 i.fa-phone-alt:hover,
                 i.fa-envelope:focus,
                 i.fa-phone-alt:focus {
-                    color: black;
+                    color: $secondaryColor;
                 }
             }
 
@@ -75,7 +75,7 @@
 
                     &.fa-github:hover,
                     &.fa-github:focus {
-                        color: black;
+                        color: $secondaryColor;
                     }
 
                     &.fa-twitter:hover,
@@ -118,7 +118,7 @@
 
                 &:hover,
                 &:focus {
-                    border: 3px solid #65d9fd;
+                    border: 3px solid $accentColor;
                 }
             }
 
@@ -127,9 +127,9 @@
             }
 
             input[type="submit"] {
-                background-color: #65d9fd;
+                background-color: $accentColor;
                 text-shadow: 2px 2px #095d86;
-                color: #ffffff;
+                color: $fontColor;
                 border: none;
                 text-transform: uppercase;
                 font-weight: 800;

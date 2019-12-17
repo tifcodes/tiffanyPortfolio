@@ -21,14 +21,14 @@
             color: darken(#C4CED5, 30%);
         }
         p:last-of-type {
-            color: black;
+            color: $secondaryColor;
         }
         a {
             font-size: 2rem;
             border-radius: 5px;
             border: none;
             font-weight: 900;
-            color: #ffffff;
+            color: $fontColor;
             background-color: #a1b1bc;
             padding: 10px;
             margin: 10px 0;
@@ -38,10 +38,10 @@
             &:hover,
             &:focus,
             &:active {
-                background-color: #65d9fd;;
+                background-color: $accentColor;
             }
             a {
-                color: #ffffff;
+                color: $fontColor;
             }
         }
     }

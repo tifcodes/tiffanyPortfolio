@@ -11,7 +11,7 @@
         left: 0;
         width: 100vw;
         min-height: 3vh;
-        background-color: black;
+        background-color: $secondaryColor;
         z-index: 50;
         ul {
         display: flex;
@@ -29,10 +29,10 @@
             padding: 15px 0;
             }
             a {
-                color: white;
+                color: $fontColor;
                 &:hover,
                 &:focus{
-                    color: #65d9fd;
+                    color: $accentColor;
                 }
             }
         }
@@ -46,7 +46,7 @@
                 font-size: 7rem;
                 font-weight: 800;
                 text-transform: uppercase;
-                color: white;
+                color: $fontColor;
                 position: absolute;
                 text-align: center;
                 @include forSmallDesktop {
