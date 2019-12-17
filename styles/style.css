@@ -529,6 +529,8 @@ header .headerName h2 {
 .about .aboutMe img {
   width: 20%;
   margin-right: 50px;
+  border: 5px solid #65d9fd;
+  border-radius: 5px;
 }
 
 @media (max-width: 900px) {
