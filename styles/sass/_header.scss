@@ -86,27 +86,27 @@ header {
     .headerName {
         position: relative;
 
-        @include forTablet {
-            .animated {
-                all: unset;
-            }
+        // @include forTablet {
+        //     .animated {
+        //         all: unset;
+        //     }
 
-            .noanimated {
-                -webkit-animation: none !important;
-                -moz-animation: none !important;
-                -o-animation: none !important;
-                -ms-animation: none !important;
-                animation: none !important;
-            }
-        }
+        //     .noanimated {
+        //         -webkit-animation: none !important;
+        //         -moz-animation: none !important;
+        //         -o-animation: none !important;
+        //         -ms-animation: none !important;
+        //         animation: none !important;
+        //     }
+        // }
 
-        .noanimated {
-            -webkit-animation: none !important;
-            -moz-animation: none !important;
-            -o-animation: none !important;
-            -ms-animation: none !important;
-            animation: none !important;
-        }
+        // .noanimated {
+        //     -webkit-animation: none !important;
+        //     -moz-animation: none !important;
+        //     -o-animation: none !important;
+        //     -ms-animation: none !important;
+        //     animation: none !important;
+        // }
 
         h1,
         span,

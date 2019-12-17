@@ -1,74 +1,93 @@
 .contact {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
     min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
     h2 {
         color: #f1f1f1
     }
+
     .contactMe {
         display: flex;
         color: #F1F1F1;
+
         @include forTablet {
             flex-direction: column;
         }
-        p {
+
+        .scan {
             margin-top: 30px;
         }
+
         .fullContact {
             text-align: center;
+
             img {
                 margin: 20px auto;
                 height: auto;
             }
-            background-color: rgba(121,120,136, .7);
+
+            background-color: rgba(121, 120, 136, .7);
             width: 40%;
             margin-right: 50px;
+
             @include forTablet {
                 width: 100%;
                 margin-bottom: 50px;
             }
+
             .contact-text {
                 font-style: normal;
                 display: inline-block;
                 text-align: left;
+
                 i {
                     font-size: 2.2rem;
+
                     @include forTablet {
                         margin: 20px 15px;
                     }
                 }
+
                 a {
                     font-size: 2.2rem;
+
                     &:hover,
                     &:focus {
                         color: black;
                     }
                 }
+
                 i.fa-envelope:hover,
                 i.fa-phone-alt:hover,
                 i.fa-envelope:focus,
-                i.fa-phone-alt:focus  {
+                i.fa-phone-alt:focus {
                     color: black;
                 }
             }
+
             .socialIcons {
                 i {
                     font-size: 2.5rem;
+
                     &.fa-github:hover,
-                    &.fa-github:focus{
+                    &.fa-github:focus {
                         color: black;
                     }
+
                     &.fa-twitter:hover,
-                    &.fa-twitter:focus  {
+                    &.fa-twitter:focus {
                         color: #4C9FEB;
                     }
+
                     &.fa-linkedin:hover,
                     &.fa-linkedin:focus {
                         color: #3071AC;
                     }
                 }
+
                 @include forTablet {
                     width: 100%;
                     padding: 10px 0;
@@ -77,7 +96,7 @@
                 }
             }
         }
-    
+
         form {
             width: 60%;
             display: flex;
@@ -86,34 +105,41 @@
             min-height: 40vh;
             background-color: rgba(121, 120, 136, 0.705);
             font-size: 2rem;
+
             input,
             textarea {
-                border: 1px solid rgba(0,0,0,0.7);
-                background: rgba(0,0,0,0.4);
+                border: 1px solid rgba(0, 0, 0, 0.7);
+                background: rgba(0, 0, 0, 0.4);
                 color: #a1b1bc;
                 margin: 10px;
                 padding: 10px;
                 border: 3px solid transparent;
+
                 &:hover,
-                &:focus{
+                &:focus {
                     border: 3px solid #65d9fd;
                 }
             }
-            textarea{
+
+            textarea {
                 resize: none;
             }
-            input[type="submit"]{
-                background-color: #65d9fd;;
+
+            input[type="submit"] {
+                background-color: #65d9fd;
+                text-shadow: 2px 2px #095d86;
                 color: #ffffff;
                 border: none;
                 text-transform: uppercase;
                 font-weight: 800;
                 width: 30%;
+
                 &:hover,
-                &:focus{
+                &:focus {
                     opacity: .8,
                 }
             }
+
             @include forTablet {
                 width: 100%;
             }
