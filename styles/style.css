@@ -480,18 +480,6 @@ header .headerName h2 {
   }
 }
 
-@media (max-height: 600px) {
-  header .headerName h2 {
-    top: 280px;
-  }
-}
-
-@media (max-height: 400px) {
-  header .headerName h2 {
-    top: 200px;
-  }
-}
-
 .about {
   background: url(../assets/journal-applied-mathematics-and-statistics.png);
   min-height: 50vh;
