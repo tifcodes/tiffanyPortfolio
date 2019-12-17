@@ -11,17 +11,18 @@
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="./assets/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/style.css">
     <title> Tiffany Wong </title>
 </head>
 
 <body>
     <a href="#about" class="skip-link">Skip to main content.</a>
-    <header id = "home">
+    <header id="home">
         <div class="wrapper">
-            <i class="fa fa-bars hamburger" aria-hidden="true" aria-expanded="true" tabindex="0"></i>
+            <i class="fa fa-bars hamburger" aria-expanded="true" tabindex="0"></i>
             <i class="fas fa-times cross" aria-hidden="true" tabindex="0"></i>
-            <nav class = "menu" tabindex="0" aria-label = "menu" >
+            <nav class="menu" tabindex="0" aria-label="menu">
                 <ul>
                     <li tabindex="0"> <a href="#home"> Home </a> </li>
                     <li tabindex="0"> <a href="#about"> About </a></li>
@@ -30,10 +31,10 @@
                     <li tabindex="0"> <a href="#contact"> Contact </a></li>
                 </ul>
             </nav>
-            <div class = "headerName">
-                <h1 class = "animated zoomIn delay-.5s"> Tiffany Wong </h1>
-                <span class = "animated fadeIn delay-1s"> Tiffany Wong</span>
-                <h2 class="animated rollIn delay-2s"> Web Developer</h2>
+            <div class="headerName noanimated">
+                <h1 class="animated zoomIn delay-.5s noanimated"> Tiffany Wong </h1>
+                <span class="animated fadeIn delay-1s noanimated"> Tiffany Wong</span>
+                <h2 class="animated rollIn delay-2s noanimated"> Web Developer</h2>
             </div>
             <!-- <a href = "#about">
             <i
@@ -44,13 +45,19 @@
         </div>
     </header>
     <main>
-        <section id="about" class = "about">
-            <div class = "wrapper aboutMe">
+        <section id="about" class="about">
+            <div class="wrapper aboutMe">
                 <img src="./assets/2019-fall-Tiffany-Wong.jpg" alt="tiffany wong photo">
                 <div>
                     <h2> About Me </h2>
-                    <p> I am a new upcoming front end web developer. I might not have lots of experience in the field but I am willing to learn and be an asset to the team. Having a background in finance, I want to be able to create applications that will enrich people’s lives. As a team member, I want to be able to work within a team to help collaborate and give ideas to help the project succeed. I don’t give up with any challenges that come my way instead tackle them head on. </p>
-                    <p> I enjoy meeting new people and learning new things. In my spare time, I love to travel and learning new cultures. </p>
+                    <p> I am a new upcoming front end web developer. I might not have lots of experience in the field
+                        but I am willing to learn and be an asset to the team. Having a background in finance, I want to
+                        be able to create applications that will enrich people’s lives. As a team member, I want to be
+                        able to work within a team to help collaborate and give ideas to help the project succeed. I
+                        don’t give up with any challenges that come my way instead tackle them head on. </p>
+                    <p> I enjoy meeting new people and learning new things. In my spare time, I love to travel and
+                        learning new cultures. </p>
+                    <p> University of Waterloo Bachelor of Mathematics</p>
                     <!-- <button> <a href="" target="_blank"
                         aria-label="Download Tiffany's Resume" download> resume </a> </button> -->
                 </div>
@@ -85,46 +92,51 @@
                         <p> Firebase </p>
                     </li>
                     <li><i class="fas fa-universal-access" aria-hidden="true"></i>
-                        <p> Web Accessibility</p></li>
+                        <p> Web Accessibility</p>
+                    </li>
                     <li><img src="./assets/responsive-design-symbol.svg"
-                            alt="responsive design with computer and tablet"> 
-                            <p> Responsive Design</p></li>
+                            alt="responsive design with computer and tablet">
+                        <p> Responsive Design</p>
+                    </li>
                 </ul>
             </div>
         </section>
-        <section id="portfolio" class = "portfolio">
-            <div class = "wrapper">
+        <section id="portfolio" class="portfolio">
+            <div class="wrapper">
                 <h2> Portfolio</h2>
-                <div class = "portfolioPieces" data-aos="fade-up"> 
+                <div class="portfolioPieces" data-aos="fade-up">
                     <img src="./assets/qrCodeFolio.png" alt="qr codefolio screenshot app on a laptop and phone">
                     <div>
                         <h3> QR Codefolio </h3>
                         <p> QR Code Generator for your website, twitter and vCard. Worked with Andrew Alexander</p>
                         <p> Paired Programming | Rest API | jQuery | Sass | HTML5</p>
                         <a href="https://tiffanyandrewprojectfour.github.io/tiffanyAndrewProjectFour/"> Live </a>
-                        <a href="https://github.com/tiffanyAndrewProjectFour/tiffanyAndrewProjectFour"> Github </a> 
+                        <a href="https://github.com/tiffanyAndrewProjectFour/tiffanyAndrewProjectFour"> Github </a>
                     </div>
-                </div> 
-                <div class = "portfolioPieces portfolioPiecesReverse" data-aos="fade-up"> 
-                        <img src="./assets/budgetApp.png" alt="budget screenshot app on a laptop and phone">
-                        <div>
-                            <h3> Budget App </h3>
-                            <p> Input your income and expenses and it will show you how much money you still have remaining</p>
-                            <p> React | Firebase | JavaScript | Sass | </p>
-                            <a href="https://tifcodes.github.io/tiffanyWongProjectFive/"> Live </a>
-                            <a href="https://github.com/tifcodes/tiffanyWongProjectFive"> Github </a>
-                        </div>
-                    </div> 
-                    <div class = "portfolioPieces" data-aos="fade-up"> 
-                        <img src="./assets/not-so-social-laptop.png" alt="not so social screenshot app on a laptop">
-                        <div>
-                            <h3> Not So Social </h3>
-                            <p> Social events are fantastic, but think about the mess, expensive outings, and rowdy crowd. Why not fill the time with some great TV shows during these social events in the comfort of your own home. Worked with Hira Ahsan, Lewis Brignell and Nick Wang</p>
-                            <p> Group Programming | React | Firebase | Rest API | JavaScript</p>
-                            <a href="https://not-so-social.github.io/notSoSocial/"> Live </a> 
-                            <a href="https://github.com/Not-So-Social/notSoSocial"> Github </a>
-                        </div>
-                    </div> 
+                </div>
+                <div class="portfolioPieces portfolioPiecesReverse" data-aos="fade-up">
+                    <img src="./assets/budgetApp.png" alt="budget screenshot app on a laptop and phone">
+                    <div>
+                        <h3> Budget App </h3>
+                        <p> Input your income and expenses and it will show you how much money you still have remaining
+                        </p>
+                        <p> React | Firebase | JavaScript | Sass | </p>
+                        <a href="https://tifcodes.github.io/tiffanyWongProjectFive/"> Live </a>
+                        <a href="https://github.com/tifcodes/tiffanyWongProjectFive"> Github </a>
+                    </div>
+                </div>
+                <div class="portfolioPieces" data-aos="fade-up">
+                    <img src="./assets/not-so-social-laptop.png" alt="not so social screenshot app on a laptop">
+                    <div>
+                        <h3> Not So Social </h3>
+                        <p> Social events are fantastic, but think about the mess, expensive outings, and rowdy crowd.
+                            Why not fill the time with some great TV shows during these social events in the comfort of
+                            your own home. Worked with Hira Ahsan, Lewis Brignell and Nick Wang</p>
+                        <p> Group Programming | React | Firebase | Rest API | JavaScript</p>
+                        <a href="https://not-so-social.github.io/notSoSocial/"> Live </a>
+                        <a href="https://github.com/Not-So-Social/notSoSocial"> Github </a>
+                    </div>
+                </div>
 
                 <!-- <div class = "portfolioPieces portfolioPiecesReverse"> 
                     <img src="./assets/blackjackScreenshot.png" alt="blackjack app screenshot on a desktop">
@@ -136,51 +148,53 @@
                         <a href="https://github.com/tifcodes/tiffanyWongProjectThree"> Github </a> 
                     </div>
                 </div>  -->
-                <div class = "portfolioPieces portfolioPiecesReverse"  data-aos="fade-up"> 
-                        <img src="./assets/RestaurantMallScreenShot.png" alt="restuarant mall screenshot app on a desktop">
-                        <div>
-                            <h3> The Restaurant Mall </h3>
-                            <p> A PSD conversion template using FlexBox, Sass and Responsive Design.</p>
-                            <p> FlexBox | Responsive Design | Sass | HTML5</p>
-                            <a href="https://tifcodes.github.io/tiffany-wong-project-2/"> Live </a>
-                            <a href="https://github.com/tifcodes/tiffany-wong-project-2"> Github </a>
-                        </div>
-                    </div> 
+                <div class="portfolioPieces portfolioPiecesReverse" data-aos="fade-up">
+                    <img src="./assets/RestaurantMallScreenShot.png" alt="restuarant mall screenshot app on a desktop">
+                    <div>
+                        <h3> The Restaurant Mall </h3>
+                        <p> A PSD conversion template using FlexBox, Sass and Responsive Design.</p>
+                        <p> FlexBox | Responsive Design | Sass | HTML5</p>
+                        <a href="https://tifcodes.github.io/tiffany-wong-project-2/"> Live </a>
+                        <a href="https://github.com/tifcodes/tiffany-wong-project-2"> Github </a>
+                    </div>
                 </div>
             </div>
+            </div>
         </section>
-        <section id="contact" class = "contact">
+        <section id="contact" class="contact">
             <div class="wrapper">
                 <h2> Keep in Touch </h2>
-                <div class = "contactMe">
-                    <div class = "fullContact">
+                <div class="contactMe">
+                    <div class="fullContact">
                         <p> Scan me to get contact info</p>
-                        <img src="./assets/qrCode.png" alt="qr code for tiffany's contact info phone and email and website">
+                        <img src="./assets/qrCode.png"
+                            alt="qr code for tiffany's contact info phone and email and website">
                         <!-- <address class="contact-text">
                             <p><i class="far fa-envelope"></i><a href="mailto:tif.wong@yahoo.com"> tif.wong@yahoo.com</a></p>
                             <p><i class="fas fa-phone-alt"></i><a href="647-938-3269"> 647-938-3269 </a></p>
                         </address> -->
-                        <div class = "socialIcons">
-                            <a href="https://github.com/tifcodes" target="_blank"
-                            aria-label="Go to Tiffany's GitHub"><i class="fab fa-github"></i></a>
+                        <div class="socialIcons">
+                            <a href="https://github.com/tifcodes" target="_blank" aria-label="Go to Tiffany's GitHub"><i
+                                    class="fab fa-github"></i></a>
                             <a href="https://twitter.com/tifcodes" target="_blank"
-                            aria-label="Go to Tiffany's Twitter"><i class="fab fa-twitter"></i></a>
+                                aria-label="Go to Tiffany's Twitter"><i class="fab fa-twitter"></i></a>
                             <a href="https://www.linkedin.com/in/tifwong/" target="_blank"
-                            aria-label="Go to Tiffany's LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                aria-label="Go to Tiffany's LinkedIn"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
-                    <form action="http://www.focuspocus.io/magic/2bc9355dae5c1eb54645c9cf85c5d92f" method="POST" enctype="multipart/form-data">
-                    <!-- <form action="submit"> -->
+                    <form action="http://www.focuspocus.io/magic/2bc9355dae5c1eb54645c9cf85c5d92f" method="POST"
+                        enctype="multipart/form-data">
+                        <!-- <form action="submit"> -->
                         <label for="name" class="visuallyHidden"> Name </label>
                         <input type="text" name="name" placeholder="Name" autocomplete="off" required>
-    
+
                         <label for="emailAddress" class="visuallyHidden"> Email Address </label>
                         <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
-    
+
                         <label for="message" class="visuallyHidden"> Message </label>
                         <textarea name="message" placeholder="Message" cols=20 rows=10 autocomplete="off"
                             required></textarea>
-    
+
                         <input type="submit" value="send">
                     </form>
                 </div>
@@ -205,12 +219,16 @@
                 </div>
         </section> -->
     </main>
-    <footer> 
-        <div class = "wrapper"> <p> Copyright ⓒ Tiffany Wong 2019 </p></div>
-    </footer> 
+    <footer>
+        <div class="wrapper">
+            <p> Copyright ⓒ Tiffany Wong 2019 </p>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js">
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
