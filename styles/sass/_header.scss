@@ -45,6 +45,12 @@ header {
                 &:focus{
                     color: #65d9fd;
                 }
+                &:active {
+                    border-bottom: 3px solid #65d9fd;
+                }
+                // .active {
+                //     border-bottom: 3px solid #65d9fd;
+                // }
             }
         }
     }

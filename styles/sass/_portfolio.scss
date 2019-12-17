@@ -35,7 +35,8 @@
             display: inline-block;
             margin-right: 10px;
             &:hover,
-            &:focus {
+            &:focus,
+            &:active {
                 background-color: #65d9fd;;
             }
             a {

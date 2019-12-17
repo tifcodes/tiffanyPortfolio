@@ -93,6 +93,11 @@
                 color: #a1b1bc;
                 margin: 10px;
                 padding: 10px;
+                border: 3px solid transparent;
+                &:hover,
+                &:focus{
+                    border: 3px solid #65d9fd;
+                }
             }
             textarea{
                 resize: none;

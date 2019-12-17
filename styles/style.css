@@ -346,6 +346,10 @@ header nav ul a:hover, header nav ul a:focus {
   color: #65d9fd;
 }
 
+header nav ul a:active {
+  border-bottom: 3px solid #65d9fd;
+}
+
 header div div {
   min-height: 80vh;
   display: -webkit-box;
@@ -674,7 +678,7 @@ header .headerName h2 {
   margin-right: 10px;
 }
 
-.portfolioPieces div a:hover, .portfolioPieces div a:focus {
+.portfolioPieces div a:hover, .portfolioPieces div a:focus, .portfolioPieces div a:active {
   background-color: #65d9fd;
 }
 
@@ -831,6 +835,13 @@ header .headerName h2 {
   color: #a1b1bc;
   margin: 10px;
   padding: 10px;
+  border: 3px solid transparent;
+}
+
+.contact .contactMe form input:hover, .contact .contactMe form input:focus,
+.contact .contactMe form textarea:hover,
+.contact .contactMe form textarea:focus {
+  border: 3px solid #65d9fd;
 }
 
 .contact .contactMe form textarea {
