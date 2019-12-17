@@ -747,6 +747,7 @@ header .headerName h2 {
 
 .contact .contactMe .scan {
   margin-top: 30px;
+  text-transform: uppercase;
 }
 
 .contact .contactMe .fullContact {
