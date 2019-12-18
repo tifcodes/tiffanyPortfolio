@@ -150,22 +150,22 @@ header {
             font-size: 5rem;
             color: $fontColor;
             letter-spacing: 5px;
-            top: 575px;
+            top: 600px;
             margin: 0;
 
             @include forSmallDesktop {
-                top: 530px;
+                top: 540px;
             }
 
             @include forTablet {
                 font-size: 3.5rem;
-                top: 470px;
+                top: 480px;
             }
 
             @include forPhone {
                 font-size: 2.5rem;
                 letter-spacing: 2px;
-                top: 430px;
+                top: 440px;
             }
 
             // @media (max-height: 600px) {

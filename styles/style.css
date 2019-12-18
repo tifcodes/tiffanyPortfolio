@@ -451,20 +451,20 @@ header .headerName h2 {
   font-size: 5rem;
   color: #ffffff;
   letter-spacing: 5px;
-  top: 575px;
+  top: 600px;
   margin: 0;
 }
 
 @media (max-width: 1200px) {
   header .headerName h2 {
-    top: 530px;
+    top: 540px;
   }
 }
 
 @media (max-width: 900px) {
   header .headerName h2 {
     font-size: 3.5rem;
-    top: 470px;
+    top: 480px;
   }
 }
 
@@ -472,7 +472,7 @@ header .headerName h2 {
   header .headerName h2 {
     font-size: 2.5rem;
     letter-spacing: 2px;
-    top: 430px;
+    top: 440px;
   }
 }
 
