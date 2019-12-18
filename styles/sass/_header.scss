@@ -76,7 +76,7 @@ header {
     }
 
     .headerName {
-        position: relative;
+        // position: relative;
 
         // @include forTablet {
         //     .animated {
@@ -109,7 +109,7 @@ header {
             text-transform: uppercase;
             color: rgba(255, 255, 255, .3);
             position: absolute;
-            width: 100vw;
+            width: 100%;
             text-align: center;
 
             @include forSmallDesktop {
@@ -133,6 +133,7 @@ header {
         span {
             position: relative;
             font-size: 10rem;
+            letter-spacing: 15px;
             color: $fontColor;
             font-weight: 700;
 

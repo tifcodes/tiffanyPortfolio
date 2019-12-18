@@ -369,10 +369,6 @@ header div div {
           align-items: center;
 }
 
-header .headerName {
-  position: relative;
-}
-
 header .headerName h1,
 header .headerName span,
 header .headerName h2 {
@@ -382,7 +378,7 @@ header .headerName h2 {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.3);
   position: absolute;
-  width: 100vw;
+  width: 100%;
   text-align: center;
 }
 
@@ -422,6 +418,7 @@ header .headerName h2 {
 header .headerName span {
   position: relative;
   font-size: 10rem;
+  letter-spacing: 15px;
   color: #ffffff;
   font-weight: 700;
 }
