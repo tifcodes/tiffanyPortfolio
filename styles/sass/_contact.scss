@@ -1,10 +1,6 @@
 .contact {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
-    min-height: 70vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
+    @include headerConstant (70vh);
     h2 {
         color: #f1f1f1
     }

@@ -2,6 +2,14 @@ $fontColor: #ffffff;
 $secondaryColor: #000000;
 $accentColor: #65d9fd;
 
+@mixin headerConstant($height) {
+    background-size: cover;
+    min-height: $height;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;   
+}
+
 @mixin forSmallerPhone {
     @media (max-width: 400px) { @content; }
 }
