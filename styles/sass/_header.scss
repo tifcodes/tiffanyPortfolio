@@ -1,7 +1,7 @@
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/scott-webb-VL-OvBppmzI-unsplash.jpg);
 
-    @include headerConstant (100vh);
+    @include headerConstant (95vh);
     
     .hamburger,
     .cross {
