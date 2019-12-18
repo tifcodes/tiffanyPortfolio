@@ -352,7 +352,8 @@ header nav ul a:active {
   border-bottom: 3px solid #65d9fd;
 }
 
-header div div {
+header .headerName {
+  position: relative;
   min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -415,7 +416,6 @@ header .headerName h2 {
 }
 
 header .headerName span {
-  position: relative;
   font-size: 10rem;
   letter-spacing: 15px;
   color: #ffffff;
@@ -451,7 +451,7 @@ header .headerName h2 {
   font-size: 5rem;
   color: #ffffff;
   letter-spacing: 5px;
-  top: 585px;
+  top: 575px;
   margin: 0;
 }
 
