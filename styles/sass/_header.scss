@@ -16,12 +16,11 @@ header {
         cursor: pointer;
     }
 
-    nav {
+    .menu {
         position: fixed;
         top: 0;
         left: 0;
         width: 100vw;
-        min-height: 10vh;
         background-color: $secondaryColor;
         z-index: 50;
 

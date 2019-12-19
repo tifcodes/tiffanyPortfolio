@@ -19,7 +19,7 @@ app.init = function () {
     });
 
     $(".hamburger").keypress(function () {
-        $(".menu").slideToggle("slow", function () {
+        $(".menu").slideToggle("fast", function () {
             $(".hamburger").hide();
             $(".cross").show();
         });

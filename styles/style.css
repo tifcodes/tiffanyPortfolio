@@ -300,17 +300,16 @@ header .cross {
   cursor: pointer;
 }
 
-header nav {
+header .menu {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
-  min-height: 10vh;
   background-color: #000000;
   z-index: 50;
 }
 
-header nav ul {
+header .menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +322,7 @@ header nav ul {
 }
 
 @media (max-width: 900px) {
-  header nav ul {
+  header .menu ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -332,7 +331,7 @@ header nav ul {
   }
 }
 
-header nav ul li {
+header .menu ul li {
   margin: 20px;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -340,15 +339,15 @@ header nav ul li {
   padding: 15px 0;
 }
 
-header nav ul a {
+header .menu ul a {
   color: #ffffff;
 }
 
-header nav ul a:hover, header nav ul a:focus {
+header .menu ul a:hover, header .menu ul a:focus {
   color: #65d9fd;
 }
 
-header nav ul a:active {
+header .menu ul a:active {
   border-bottom: 3px solid #65d9fd;
 }
 
