@@ -31,6 +31,12 @@ app.init = function () {
             $(".hamburger").show();
         });
     });
+
+    $('a').click(function () {
+        $(".cross").hide();
+        $(".hamburger").show();
+        $(".menu").hide();
+    })
 }
 
 $(function () {

@@ -46,6 +46,13 @@
                     @include forTablet {
                         margin: 20px 15px;
                     }
+
+                    @include forPhone {
+                        display: block;
+                        text-align: center;
+                        font-size: 1.8rem;
+                        margin: 5px;
+                    }
                 }
 
                 a {
@@ -97,7 +104,6 @@
         form {
             width: 60%;
             display: flex;
-            flex-wrap: wrap;
             flex-direction: column;
             min-height: 40vh;
             background-color: rgba(121, 120, 136, 0.705);

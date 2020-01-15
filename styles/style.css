@@ -536,7 +536,7 @@ header .headerName h2 {
   }
 }
 
-.about .aboutMe div button {
+.about .aboutMe div a {
   background-color: #65d9fd;
   color: #ffffff;
   border: none;
@@ -547,12 +547,12 @@ header .headerName h2 {
   font-size: 2rem;
 }
 
-.about .aboutMe div button:hover, .about .aboutMe div button:focus {
+.about .aboutMe div a:hover, .about .aboutMe div a:focus {
   opacity: 0.8;
 }
 
 @media (max-width: 900px) {
-  .about .aboutMe div button {
+  .about .aboutMe div a {
     width: 40%;
   }
 }
@@ -770,6 +770,15 @@ header .headerName h2 {
   }
 }
 
+@media (max-width: 605px) {
+  .contact .contactMe .fullContact .contact-text i {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 5px;
+  }
+}
+
 .contact .contactMe .fullContact .contact-text a {
   font-size: 2.2rem;
 }
@@ -815,8 +824,6 @@ header .headerName h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
